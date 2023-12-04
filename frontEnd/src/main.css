@@ -1,0 +1,50 @@
+/* KASTEM VARIABEL */
+/* margin */
+:root{
+    --ml-navbar: 15px;
+    --margin: 15px;
+}
+/* Selesai Margin */
+:root{
+    --mainColor: #438EF0;
+    --socondaryColor: #00F775;
+    --thirdColor: #B9E00B;
+    --fourthColor: #F7A000;
+    --ifthColor: #ED1600;
+    --textColor: #ffffff;
+}
+
+/* SELESAI KASTEM VARIABEL */
+.mainColor-nav{
+    color: var(--textColor);
+    background-color: var(--mainColor);
+}
+.navbar-brand {
+    margin-left: var(--ml-navbar);
+    font-style: italic;
+    margin-right: var(--ml-navbar);
+    color: var(--textColor);
+}
+body{
+    background-color: #c7c7c7;
+}
+.navbar-nav {
+    margin-left: auto;
+
+}
+.navbar-nav a {
+    margin-left: auto;
+    color: var(--textColor);
+}
+.navbar-nav a:hover {
+    margin-left: auto;
+    color: var(--textColor);
+    background-color: var(--socondaryColor);
+}
+.bg-gradien{
+    background-image: linear-gradient(to right, var(--thirdColor), var(--socondaryColor));
+};
+}
+.heroImg img.polygon{
+    clip-path: polygon(0% 50%, 80% 0%, 75% 100%, 0% 60%, 0% 0%);
+}
